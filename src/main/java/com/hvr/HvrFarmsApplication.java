@@ -14,9 +14,4 @@ public class HvrFarmsApplication {
 		SpringApplication.run(HvrFarmsApplication.class, args);
 	}
 
-	@Bean
-	public RequestContextListener requestContextListener() {
-		return new RequestContextListener();
-	}
-
 }
