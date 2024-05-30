@@ -7,7 +7,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.web.context.request.RequestContextListener;
 
 @SpringBootApplication
-@EnableScheduling
 public class HvrFarmsApplication {
 
 	public static void main(String[] args) {
